@@ -8,6 +8,6 @@ class Score
     self.score = self.score - 1
   end
   def current_score
-    print "#{self.score}/3"
+    puts "#{self.score}/3"
   end
 end
